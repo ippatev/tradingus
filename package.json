@@ -22,8 +22,10 @@
     "@taiga-ui/core": "^2.13.1",
     "@taiga-ui/icons": "^2.13.1",
     "@taiga-ui/kit": "^2.13.1",
+    "ng2-charts": "^3.0.0-rc.5",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
+    "vue": "^3.2.2",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
