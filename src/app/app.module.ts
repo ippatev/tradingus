@@ -10,11 +10,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { TuiRootModule } from '@taiga-ui/core';
+import { TuiMoneyModule } from '@taiga-ui/addon-commerce';
 
 import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
+import { ListItemComponent } from './list-item/list-item.component';
+import { BubbleItemComponent } from './bubble-item/bubble-item.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    ListItemComponent,
+    BubbleItemComponent,
+    HeaderComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -22,6 +31,7 @@ import { TuiButtonModule, TuiSvgModule } from '@taiga-ui/core';
     TuiRootModule,
     TuiButtonModule,
     TuiSvgModule,
+    TuiMoneyModule,
   ],
   // schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent],

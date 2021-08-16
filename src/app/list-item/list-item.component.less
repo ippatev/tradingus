@@ -1,0 +1,56 @@
+@import "~@taiga-ui/core/styles/taiga-ui-local";
+
+.list-item {
+  font: var(--tui-font-text-l);
+  display: flex;
+  align-items: center;
+}
+
+.list-item-info {
+  color: var(--tui-text-02);
+}
+
+.list-item-status {
+  font: var(--tui-font-text-s);
+}
+
+.list-item-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: 0 1.5rem;
+  background: var(--tui-secondary-active);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  color: var(--tui-text-03);
+}
+
+.list-item-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.list-item-title {
+  .text-overflow();
+  margin-right: 1.5rem;
+  flex-grow: 1;
+}
+
+.list-item-info {
+  text-align: right;
+}
+
+.list-item-status {
+  &_success {
+    color: var(--tui-success-fill);
+  }
+
+  &_error {
+    color: var(--tui-error-fill);
+  }
+}
