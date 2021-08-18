@@ -36,9 +36,10 @@
               }
             ],
             "styles": [
-              "src/styles.less",
               "node_modules/@taiga-ui/core/styles/taiga-ui-global.less",
-              "node_modules/@taiga-ui/core/styles/taiga-ui-theme.less"
+              "node_modules/@taiga-ui/core/styles/taiga-ui-theme.less",
+              "node_modules/chartist/dist/chartist.css",
+              "src/styles.less"
             ],
             "scripts": []
           },
